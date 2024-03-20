@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/resources/background_web.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* 전체 내용 가운데 정렬 */
+    border-radius: 10px;
+}
+
+#main_title {
+    background-color: rgba(255, 255, 255, 0); /* 배경을 완전히 투명하게 설정 */
+    color: #fff; /* 글자색을 밝은 색상으로 변경 */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px; /* 모서리를 둥글게 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+    text-align: center; /* 텍스트를 가운데 정렬 */
+}
+
+#main_title h1 {
+    margin: 0;
+    font-size: 50px; /* 제목의 글자 크기 조정 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* 제목에 그림자 효과 추가 */
+}
+
+#wrapper_button_title {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+#wrapper_button_title h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+#wrapper_body {
+    display: flex;
+    justify-content: center;
+}
+
+#wrapper_body>div {
+    margin: 10px;
+}
+
+#tarkov_wiki button, #tarkov_board button, #movieInfo input[type="submit"],
+    #record_button {
+    padding: 8px 16px; /* 버튼 크기 조정 */
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#tarkov_wiki button:hover, #tarkov_board button:hover, #movieInfo input[type="submit"]:hover,
+    #record_button:hover {
+    background-color: #45a049;
+}
+
+#wrapper_title, #movieTitle, #urlTitle {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+#wrapper_title h3 , #movieTitle h3, #urlTitle h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+#movieInfo, #nameInput {
+    padding: 20px;
+    margin: 0 auto; /* 가운데 정렬 */
+    width: fit-content; /* 내용에 맞게 너비 조절 */
+}
+
+#movieInfo label {
+    margin-bottom: 5px;
+}
+
+/* 날짜 선택 아래의 구분선 스타일 */
+#movieInfo hr {
+    display: none; /* 구분선을 숨김 */
+}
+
+#date {
+    padding: 10px; /* 입력란의 패딩 크기를 조정 */
+    font-size: 16px; /* 입력란의 글꼴 크기를 조정 */
+}
+
+#search_nickname {
+    padding: 10px; /* 입력란의 패딩 크기를 조정 */
+    font-size: 16px; /* 입력란의 글꼴 크기를 조정 */
+    width: 300px; /* 입력란의 너비를 조정 */
+}
+
+#nameInput form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nameInput input[type="text"], #nameInput input[type="submit"] {
+    padding: 10px;
+    margin: 5px;
+}
+
+#wrapper_bottom {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#movieInfo {
+    padding: 20px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper label {
+    margin-right: 10px;
+}
+
+.input-wrapper h3 {
+    margin: 0;
+}
+
+#movieInfo input[type="submit"] {
+    margin-left: 10px; /* 오른쪽으로 이동하여 오른쪽에 배치 */
+}
